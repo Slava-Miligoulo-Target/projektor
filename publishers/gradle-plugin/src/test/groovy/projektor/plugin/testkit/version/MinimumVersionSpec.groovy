@@ -8,7 +8,7 @@ import spock.lang.Unroll
 
 class MinimumVersionSpec extends SingleProjectSpec {
     @Unroll
-    def "when running with Gradle version #gradleVersion less than Gradle 7 should fail"() {
+    def "when running with Gradle version #gradleVersion less than Gradle 7.6.1 should fail"() {
         given:
         buildFile << """
             projektor {
