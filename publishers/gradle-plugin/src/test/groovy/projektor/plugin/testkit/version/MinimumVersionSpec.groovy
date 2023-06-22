@@ -30,7 +30,7 @@ class MinimumVersionSpec extends SingleProjectSpec {
                 .buildAndFail()
 
         then:
-        result.output.contains("This version of the Projektor Gradle plugin supports Gradle 7.0+ only. Please upgrade the version of Gradle your project uses.")
+        result.output.contains("This version of the Projektor Gradle plugin supports Gradle 7.6.1+ only. Please upgrade the version of Gradle your project uses.")
 
         and:
         List<LoggedRequest> resultsRequests = resultsStubber.findResultsRequests()
