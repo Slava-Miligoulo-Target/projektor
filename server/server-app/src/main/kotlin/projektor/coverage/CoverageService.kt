@@ -190,15 +190,21 @@ class CoverageService(
                 val (incomingCoverageReport, incomingCoverageFiles) = parsedReport
 
                 try {
-                    val existingCoverageFiles = coverageRepository.fetchCoverageFiles(publicId, incomingCoverageReport.name)
+                    val existingCoverageFiles =
+                        coverageRepository.fetchCoverageFiles(publicId, incomingCoverageReport.name)
 
                     val combinedCoverageFiles = combineCoverageFiles(existingCoverageFiles, incomingCoverageFiles)
 
-                    val coveredLines = combinedCoverageFiles.sumBy { it.stats.lineStat.covered }
-                    val missedLines = combinedCoverageFiles.sumBy { it.stats.lineStat.missed }
-                    val newLineStat = CoverageStat(covered = coveredLines, missed = missedLines, coveredPercentageDelta = null)
+                    val coveredLines = combinedCoverageFiles.sumOf { it.stats.lineStat.covered }
+                    val missedLines = combinedCoverageFiles.sumOf { it.stats.lineStat.missed }
+                    val newLineStat =
+                        CoverageStat(covered = coveredLines, missed = missedLines, coveredPercentageDelta = null)
 
-                    val (coverageGroup, coverageGroupStatus) = coverageRepository.upsertCoverageGroup(coverageRun, incomingCoverageReport, newLineStat)
+                    val (coverageGroup, coverageGroupStatus) = coverageRepository.upsertCoverageGroup(
+                        coverageRun,
+                        incomingCoverageReport,
+                        newLineStat
+                    )
 
                     if (coverageGroupStatus == CoverageGroupStatus.NEW) {
                         coverageRepository.insertCoverageFiles(
