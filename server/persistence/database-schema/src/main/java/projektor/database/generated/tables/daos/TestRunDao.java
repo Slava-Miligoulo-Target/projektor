@@ -4,15 +4,16 @@
 package projektor.database.generated.tables.daos;
 
 
-import org.jooq.Configuration;
-import org.jooq.impl.DAOImpl;
-import projektor.database.generated.tables.TestRun;
-import projektor.database.generated.tables.records.TestRunRecord;
-
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
+
+import org.jooq.Configuration;
+import org.jooq.impl.DAOImpl;
+
+import projektor.database.generated.tables.TestRun;
+import projektor.database.generated.tables.records.TestRunRecord;
 
 
 /**

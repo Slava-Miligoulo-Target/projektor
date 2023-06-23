@@ -1,6 +1,10 @@
 package projektor.parser.coverage.clover
 
-import projektor.parser.coverage.clover.model.*
+import projektor.parser.coverage.clover.model.Coverage
+import projektor.parser.coverage.clover.model.CoverageFile
+import projektor.parser.coverage.clover.model.CoverageLine
+import projektor.parser.coverage.clover.model.CoveragePackage
+import projektor.parser.coverage.clover.model.LineType
 import projektor.server.example.coverage.CloverXmlLoader
 import spock.lang.Specification
 

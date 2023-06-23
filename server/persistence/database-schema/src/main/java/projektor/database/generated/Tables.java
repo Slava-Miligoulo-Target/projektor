@@ -4,7 +4,24 @@
 package projektor.database.generated;
 
 
-import projektor.database.generated.tables.*;
+import projektor.database.generated.tables.CodeCoverageFile;
+import projektor.database.generated.tables.CodeCoverageGroup;
+import projektor.database.generated.tables.CodeCoverageRun;
+import projektor.database.generated.tables.CodeCoverageStats;
+import projektor.database.generated.tables.CodeQualityReport;
+import projektor.database.generated.tables.GitMetadata;
+import projektor.database.generated.tables.GitRepository;
+import projektor.database.generated.tables.PerformanceResults;
+import projektor.database.generated.tables.ResultsMetadata;
+import projektor.database.generated.tables.ResultsProcessing;
+import projektor.database.generated.tables.ResultsProcessingFailure;
+import projektor.database.generated.tables.TestCase;
+import projektor.database.generated.tables.TestFailure;
+import projektor.database.generated.tables.TestRun;
+import projektor.database.generated.tables.TestRunAttachment;
+import projektor.database.generated.tables.TestRunSystemAttributes;
+import projektor.database.generated.tables.TestSuite;
+import projektor.database.generated.tables.TestSuiteGroup;
 
 
 /**

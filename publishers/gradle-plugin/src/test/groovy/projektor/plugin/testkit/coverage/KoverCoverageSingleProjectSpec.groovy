@@ -8,8 +8,12 @@ import projektor.plugin.testkit.SingleProjectSpec
 import spock.lang.Unroll
 
 import static org.gradle.testkit.runner.TaskOutcome.SUCCESS
-import static projektor.plugin.CodeUnderTestWriter.*
-import static projektor.plugin.ProjectDirectoryWriter.*
+import static projektor.plugin.CodeUnderTestWriter.writePartialCoverageSpecFile
+import static projektor.plugin.CodeUnderTestWriter.writeResourcesFile
+import static projektor.plugin.CodeUnderTestWriter.writeSourceCodeFile
+import static projektor.plugin.ProjectDirectoryWriter.createResourcesDirectory
+import static projektor.plugin.ProjectDirectoryWriter.createSourceDirectory
+import static projektor.plugin.ProjectDirectoryWriter.createTestDirectory
 
 class KoverCoverageSingleProjectSpec extends SingleProjectSpec {
 

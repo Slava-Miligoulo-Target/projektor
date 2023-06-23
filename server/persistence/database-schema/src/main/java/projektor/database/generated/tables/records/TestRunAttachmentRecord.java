@@ -9,6 +9,7 @@ import org.jooq.Record1;
 import org.jooq.Record5;
 import org.jooq.Row5;
 import org.jooq.impl.UpdatableRecordImpl;
+
 import projektor.database.generated.tables.TestRunAttachment;
 
 

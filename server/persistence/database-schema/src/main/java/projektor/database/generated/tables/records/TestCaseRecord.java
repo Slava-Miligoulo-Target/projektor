@@ -4,14 +4,15 @@
 package projektor.database.generated.tables.records;
 
 
+import java.math.BigDecimal;
+
 import org.jooq.Field;
 import org.jooq.Record1;
 import org.jooq.Record13;
 import org.jooq.Row13;
 import org.jooq.impl.UpdatableRecordImpl;
-import projektor.database.generated.tables.TestCase;
 
-import java.math.BigDecimal;
+import projektor.database.generated.tables.TestCase;
 
 
 /**

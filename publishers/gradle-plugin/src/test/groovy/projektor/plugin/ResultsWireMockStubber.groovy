@@ -5,7 +5,10 @@ import com.github.tomakehurst.wiremock.http.Fault
 import com.github.tomakehurst.wiremock.verification.LoggedRequest
 import projektor.plugin.results.grouped.GroupedResults
 
-import static com.github.tomakehurst.wiremock.client.WireMock.*
+import static com.github.tomakehurst.wiremock.client.WireMock.aResponse
+import static com.github.tomakehurst.wiremock.client.WireMock.post
+import static com.github.tomakehurst.wiremock.client.WireMock.postRequestedFor
+import static com.github.tomakehurst.wiremock.client.WireMock.urlEqualTo
 
 class ResultsWireMockStubber extends WireMockStubber {
     ResultsWireMockStubber(WireMockServer wireMockServer) {

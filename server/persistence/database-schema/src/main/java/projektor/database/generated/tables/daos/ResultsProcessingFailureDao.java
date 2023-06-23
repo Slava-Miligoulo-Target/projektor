@@ -4,14 +4,15 @@
 package projektor.database.generated.tables.daos;
 
 
-import org.jooq.Configuration;
-import org.jooq.impl.DAOImpl;
-import projektor.database.generated.tables.ResultsProcessingFailure;
-import projektor.database.generated.tables.records.ResultsProcessingFailureRecord;
-
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
+
+import org.jooq.Configuration;
+import org.jooq.impl.DAOImpl;
+
+import projektor.database.generated.tables.ResultsProcessingFailure;
+import projektor.database.generated.tables.records.ResultsProcessingFailureRecord;
 
 
 /**

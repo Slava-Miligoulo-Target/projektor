@@ -1,7 +1,11 @@
 package projektor.parser.grouped
 
 import com.fasterxml.jackson.databind.ObjectMapper
-import projektor.parser.grouped.model.*
+import projektor.parser.grouped.model.GitMetadata
+import projektor.parser.grouped.model.GroupedResults
+import projektor.parser.grouped.model.GroupedTestSuites
+import projektor.parser.grouped.model.PerformanceResult
+import projektor.parser.grouped.model.ResultsMetadata
 import spock.lang.Specification
 import spock.lang.Subject
 

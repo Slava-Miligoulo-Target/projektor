@@ -1,7 +1,8 @@
 package projektor.parser.coverage.clover
 
-import projektor.server.example.coverage.CloverXmlLoader
+
 import projektor.server.example.coverage.JacocoXmlLoader
+import projektor.server.example.coverage.CloverXmlLoader
 import spock.lang.Specification
 import spock.lang.Unroll
 

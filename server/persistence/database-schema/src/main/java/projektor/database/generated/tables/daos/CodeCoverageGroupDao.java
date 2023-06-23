@@ -4,13 +4,14 @@
 package projektor.database.generated.tables.daos;
 
 
-import org.jooq.Configuration;
-import org.jooq.impl.DAOImpl;
-import projektor.database.generated.tables.CodeCoverageGroup;
-import projektor.database.generated.tables.records.CodeCoverageGroupRecord;
-
 import java.util.List;
 import java.util.Optional;
+
+import org.jooq.Configuration;
+import org.jooq.impl.DAOImpl;
+
+import projektor.database.generated.tables.CodeCoverageGroup;
+import projektor.database.generated.tables.records.CodeCoverageGroupRecord;
 
 
 /**

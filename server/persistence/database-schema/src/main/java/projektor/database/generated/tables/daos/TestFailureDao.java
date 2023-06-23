@@ -4,13 +4,14 @@
 package projektor.database.generated.tables.daos;
 
 
-import org.jooq.Configuration;
-import org.jooq.impl.DAOImpl;
-import projektor.database.generated.tables.TestFailure;
-import projektor.database.generated.tables.records.TestFailureRecord;
-
 import java.util.List;
 import java.util.Optional;
+
+import org.jooq.Configuration;
+import org.jooq.impl.DAOImpl;
+
+import projektor.database.generated.tables.TestFailure;
+import projektor.database.generated.tables.records.TestFailureRecord;
 
 
 /**
