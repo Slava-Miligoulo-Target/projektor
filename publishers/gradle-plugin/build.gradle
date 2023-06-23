@@ -104,7 +104,11 @@ task startServerDaemon(type: com.github.psxpaul.task.JavaExecFork) {
             'compileGroovy',
             'compileTestGroovy',
             'compileTestFixturesGroovy',
-            'compileFunctionalTestJava'
+            'compileFunctionalTestJava',
+            'pluginUnderTestMetadata',
+            'test',
+            'processFunctionalTestResources',
+            'processTestResources'
     classpath = tasks.getByPath(':server:server-app:shadowJar').outputs.files
     main = 'io.ktor.server.netty.EngineMain'
     stopAfter = functionalTest
