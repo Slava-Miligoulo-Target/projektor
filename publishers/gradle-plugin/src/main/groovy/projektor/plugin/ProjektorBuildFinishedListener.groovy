@@ -9,8 +9,8 @@ import org.gradle.api.invocation.Gradle
 import org.gradle.api.logging.Logger
 import projektor.plugin.attachments.AttachmentsClient
 import projektor.plugin.attachments.AttachmentsPublisher
-import projektor.plugin.client.ResultsClient
 import projektor.plugin.client.ClientConfig
+import projektor.plugin.client.ResultsClient
 import projektor.plugin.coverage.CodeCoverageTaskCollector
 import projektor.plugin.git.GitMetadataFinder
 import projektor.plugin.git.GitResolutionConfig

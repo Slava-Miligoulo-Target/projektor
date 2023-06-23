@@ -9,7 +9,6 @@ import org.jooq.Record1;
 import org.jooq.Record9;
 import org.jooq.Row9;
 import org.jooq.impl.UpdatableRecordImpl;
-
 import projektor.database.generated.tables.CodeCoverageFile;
 
 

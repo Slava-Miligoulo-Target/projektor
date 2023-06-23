@@ -3,7 +3,6 @@ package projektor.plugin.attachments
 import com.github.tomakehurst.wiremock.http.HttpHeader
 import com.github.tomakehurst.wiremock.junit.WireMockRule
 import com.github.tomakehurst.wiremock.verification.LoggedRequest
-import okhttp3.OkHttpClient
 import org.gradle.api.logging.Logger
 import org.junit.Rule
 import projektor.plugin.AttachmentsWireMockStubber

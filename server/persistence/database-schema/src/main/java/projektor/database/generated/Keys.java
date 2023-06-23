@@ -9,43 +9,8 @@ import org.jooq.TableField;
 import org.jooq.UniqueKey;
 import org.jooq.impl.DSL;
 import org.jooq.impl.Internal;
-
-import projektor.database.generated.tables.CodeCoverageFile;
-import projektor.database.generated.tables.CodeCoverageGroup;
-import projektor.database.generated.tables.CodeCoverageRun;
-import projektor.database.generated.tables.CodeCoverageStats;
-import projektor.database.generated.tables.CodeQualityReport;
-import projektor.database.generated.tables.GitMetadata;
-import projektor.database.generated.tables.GitRepository;
-import projektor.database.generated.tables.PerformanceResults;
-import projektor.database.generated.tables.ResultsMetadata;
-import projektor.database.generated.tables.ResultsProcessing;
-import projektor.database.generated.tables.ResultsProcessingFailure;
-import projektor.database.generated.tables.TestCase;
-import projektor.database.generated.tables.TestFailure;
-import projektor.database.generated.tables.TestRun;
-import projektor.database.generated.tables.TestRunAttachment;
-import projektor.database.generated.tables.TestRunSystemAttributes;
-import projektor.database.generated.tables.TestSuite;
-import projektor.database.generated.tables.TestSuiteGroup;
-import projektor.database.generated.tables.records.CodeCoverageFileRecord;
-import projektor.database.generated.tables.records.CodeCoverageGroupRecord;
-import projektor.database.generated.tables.records.CodeCoverageRunRecord;
-import projektor.database.generated.tables.records.CodeCoverageStatsRecord;
-import projektor.database.generated.tables.records.CodeQualityReportRecord;
-import projektor.database.generated.tables.records.GitMetadataRecord;
-import projektor.database.generated.tables.records.GitRepositoryRecord;
-import projektor.database.generated.tables.records.PerformanceResultsRecord;
-import projektor.database.generated.tables.records.ResultsMetadataRecord;
-import projektor.database.generated.tables.records.ResultsProcessingFailureRecord;
-import projektor.database.generated.tables.records.ResultsProcessingRecord;
-import projektor.database.generated.tables.records.TestCaseRecord;
-import projektor.database.generated.tables.records.TestFailureRecord;
-import projektor.database.generated.tables.records.TestRunAttachmentRecord;
-import projektor.database.generated.tables.records.TestRunRecord;
-import projektor.database.generated.tables.records.TestRunSystemAttributesRecord;
-import projektor.database.generated.tables.records.TestSuiteGroupRecord;
-import projektor.database.generated.tables.records.TestSuiteRecord;
+import projektor.database.generated.tables.*;
+import projektor.database.generated.tables.records.*;
 
 
 /**

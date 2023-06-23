@@ -4,14 +4,13 @@
 package projektor.database.generated.tables.daos;
 
 
-import java.util.List;
-import java.util.Optional;
-
 import org.jooq.Configuration;
 import org.jooq.impl.DAOImpl;
-
 import projektor.database.generated.tables.GitMetadata;
 import projektor.database.generated.tables.records.GitMetadataRecord;
+
+import java.util.List;
+import java.util.Optional;
 
 
 /**

@@ -3,11 +3,7 @@ package projektor.plugin
 import com.github.tomakehurst.wiremock.WireMockServer
 import com.github.tomakehurst.wiremock.verification.LoggedRequest
 
-import static com.github.tomakehurst.wiremock.client.WireMock.aResponse
-import static com.github.tomakehurst.wiremock.client.WireMock.post
-import static com.github.tomakehurst.wiremock.client.WireMock.postRequestedFor
-import static com.github.tomakehurst.wiremock.client.WireMock.urlEqualTo
-import static com.github.tomakehurst.wiremock.client.WireMock.urlMatching
+import static com.github.tomakehurst.wiremock.client.WireMock.*
 
 class AttachmentsWireMockStubber extends WireMockStubber {
     AttachmentsWireMockStubber(WireMockServer wireMockServer) {

@@ -5,8 +5,8 @@ import com.github.tomakehurst.wiremock.junit.WireMockRule
 import com.github.tomakehurst.wiremock.verification.LoggedRequest
 import org.gradle.api.logging.Logger
 import org.junit.Rule
-import projektor.plugin.ResultsWireMockStubber
 import projektor.plugin.PublishResult
+import projektor.plugin.ResultsWireMockStubber
 import projektor.plugin.results.grouped.GroupedResults
 import spock.lang.Specification
 import spock.lang.Unroll

@@ -1,10 +1,6 @@
 package projektor.plugin.attachments
 
-import okhttp3.MediaType
-import okhttp3.OkHttpClient
-import okhttp3.Request
-import okhttp3.RequestBody
-import okhttp3.Response
+import okhttp3.*
 import org.gradle.api.logging.Logger
 import projektor.plugin.client.ClientConfig
 

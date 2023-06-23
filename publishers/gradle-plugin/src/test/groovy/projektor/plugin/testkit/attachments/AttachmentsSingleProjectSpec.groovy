@@ -2,10 +2,10 @@ package projektor.plugin.testkit.attachments
 
 import com.github.tomakehurst.wiremock.verification.LoggedRequest
 import projektor.plugin.AttachmentsWireMockStubber
+import projektor.plugin.AttachmentsWriter
 import projektor.plugin.BuildFileWriter
 import projektor.plugin.SpecWriter
 import projektor.plugin.testkit.ProjectSpec
-import projektor.plugin.AttachmentsWriter
 
 import static org.gradle.testkit.runner.TaskOutcome.FAILED
 import static org.gradle.testkit.runner.TaskOutcome.SUCCESS

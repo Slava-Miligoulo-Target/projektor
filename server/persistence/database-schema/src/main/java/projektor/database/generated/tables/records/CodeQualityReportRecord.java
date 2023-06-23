@@ -9,7 +9,6 @@ import org.jooq.Record1;
 import org.jooq.Record6;
 import org.jooq.Row6;
 import org.jooq.impl.UpdatableRecordImpl;
-
 import projektor.database.generated.tables.CodeQualityReport;
 
 

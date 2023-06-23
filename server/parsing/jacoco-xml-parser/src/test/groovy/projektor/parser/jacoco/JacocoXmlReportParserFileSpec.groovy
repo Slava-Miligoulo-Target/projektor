@@ -1,11 +1,6 @@
 package projektor.parser.jacoco
 
-import projektor.parser.jacoco.model.Counter
-import projektor.parser.jacoco.model.CounterType
-import projektor.parser.jacoco.model.LineType
-import projektor.parser.jacoco.model.Report
-import projektor.parser.jacoco.model.ReportPackage
-import projektor.parser.jacoco.model.SourceFile
+import projektor.parser.jacoco.model.*
 import projektor.server.example.coverage.JacocoXmlLoader
 import spock.lang.Specification
 

@@ -9,9 +9,7 @@ import spock.util.concurrent.PollingConditions
 
 import static org.gradle.testkit.runner.TaskOutcome.SUCCESS
 import static org.gradle.testkit.runner.TaskOutcome.UP_TO_DATE
-import static projektor.plugin.CodeUnderTestWriter.writeFullCoverageSpecFile
-import static projektor.plugin.CodeUnderTestWriter.writePartialCoverageSpecFile
-import static projektor.plugin.CodeUnderTestWriter.writeSourceCodeFile
+import static projektor.plugin.CodeUnderTestWriter.*
 import static projektor.plugin.ProjectDirectoryWriter.createSourceDirectory
 
 class MultiProjectCoverageFunctionalSpec extends MultiProjectFunctionalSpecification {

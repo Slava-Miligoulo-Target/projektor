@@ -13,7 +13,10 @@ import projektor.parser.coverage.model.CoverageReport
 import projektor.parser.coverage.payload.CoverageFilePayload
 import projektor.parser.coverage.payload.CoveragePayloadParser
 import projektor.server.api.PublicId
-import projektor.server.api.coverage.*
+import projektor.server.api.coverage.Coverage
+import projektor.server.api.coverage.CoverageFile
+import projektor.server.api.coverage.CoverageStat
+import projektor.server.api.coverage.CoverageStats
 import projektor.server.api.error.FailureBodyType
 import java.math.BigDecimal
 

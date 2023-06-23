@@ -4,29 +4,17 @@
 package projektor.database.generated.tables;
 
 
-import java.util.Arrays;
-import java.util.List;
-
-import org.jooq.Field;
-import org.jooq.ForeignKey;
-import org.jooq.Identity;
-import org.jooq.Index;
-import org.jooq.Name;
-import org.jooq.Record;
-import org.jooq.Row5;
-import org.jooq.Schema;
-import org.jooq.Table;
-import org.jooq.TableField;
-import org.jooq.TableOptions;
-import org.jooq.UniqueKey;
+import org.jooq.*;
 import org.jooq.impl.DSL;
 import org.jooq.impl.SQLDataType;
 import org.jooq.impl.TableImpl;
-
 import projektor.database.generated.Indexes;
 import projektor.database.generated.Keys;
 import projektor.database.generated.Public;
 import projektor.database.generated.tables.records.TestRunAttachmentRecord;
+
+import java.util.Arrays;
+import java.util.List;
 
 
 /**
