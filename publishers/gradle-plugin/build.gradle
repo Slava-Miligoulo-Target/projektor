@@ -108,7 +108,8 @@ task startServerDaemon(type: com.github.psxpaul.task.JavaExecFork) {
             'pluginUnderTestMetadata',
             'test',
             'processFunctionalTestResources',
-            'processTestResources'
+            'processTestResources',
+            'validatePlugins'
     classpath = tasks.getByPath(':server:server-app:shadowJar').outputs.files
     main = 'io.ktor.server.netty.EngineMain'
     stopAfter = functionalTest
