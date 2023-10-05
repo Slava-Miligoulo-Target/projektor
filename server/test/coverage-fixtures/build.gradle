@@ -3,5 +3,5 @@ apply from: "../../../gradle/kotlin.gradle"
 dependencies {
     implementation project(":server:parsing:coverage-parser")
 
-    implementation "io.github.classgraph:classgraph:4.8.65"
+    implementation 'io.github.classgraph:classgraph:4.8.157'
 }

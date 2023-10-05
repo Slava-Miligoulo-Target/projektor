@@ -77,9 +77,9 @@ dependencies {
     testImplementation 'org.awaitility:awaitility-kotlin:4.2.0'
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.10.0"
 
-    testImplementation "io.insert-koin:koin-test:$koin_version"
+    testImplementation "io.insert-koin:koin-test:$koin_test_version"
 
-    testImplementation "com.github.tomakehurst:wiremock-jre8:$wiremockVersion"
+    testImplementation "org.wiremock:wiremock:$wiremockVersion"
 }
 
 task cleanStaticResources(type: Delete) {
